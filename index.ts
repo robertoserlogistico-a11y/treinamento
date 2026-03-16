@@ -247,7 +247,7 @@ app.get('/', (req, res) => {
     res.json({ message: "API de Projetos e Tarefas funcionando!" });
 });
 
-// ========== INICIAR SERVIDOR ==========
+
 app.listen(PORT, () => {
     console.log(`🚀 Servidor rodando na porta ${PORT}`);
     console.log(`📝 Teste: http://localhost:${PORT}`);
